@@ -1,0 +1,3287 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "meuserver-1.20.1",
+      "name": "meuserver (Minecraft 1.20.1)",
+      "description": "meuserver Running Minecraft 1.20.1 (Forge v47.4.12)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.12",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7400,
+            "MD5": "db8d4796a14145be81761cb89ae5db3c",
+            "url": "http://seusite.com/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.12/lowcodelanguage-1.20.1-47.4.12.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.12",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "7908175696ddc579d88a61e99c7d1d71",
+                "url": "http://seusite.com/repo/versions/1.20.1-forge-47.4.12/1.20.1-forge-47.4.12.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "664e0ddaf90c5032ef090b3822b698f8",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.12/fmlcore-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.12",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16856,
+                "MD5": "f4d57072c2ef04fb62a97632195ab3de",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.12/javafmllanguage-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.12",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "7ad9613cab9250ebecd8e55111a40081",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.12/mclanguage-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.12:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777985,
+                "MD5": "7e28e63b7c4419246659bfb7ca28dd1c",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.12/forge-1.20.1-47.4.12-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.12:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.12/forge-1.20.1-47.4.12-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://seusite.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://seusite.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://seusite.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://seusite.com/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "http://seusite.com/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "http://seusite.com/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "http://seusite.com/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "http://seusite.com/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "http://seusite.com/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://seusite.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://seusite.com/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://seusite.com/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://seusite.com/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://seusite.com/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://seusite.com/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://seusite.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://seusite.com/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://seusite.com/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://seusite.com/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "http://seusite.com/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://seusite.com/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269268,
+                "MD5": "d894683c3e686814314c38f3bcf67d19",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.12/fmlloader-1.20.1-47.4.12.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "f55a8fa2772fa5482e9dcb1fe1439702",
+                "url": "http://seusite.com/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.12/fmlearlydisplay-1.20.1-47.4.12.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AdvancedAE-1.3.2-1.20.1.jar",
+          "name": "AdvancedAE-1.3.2-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2486236,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/AdvancedAE-1.3.2-1.20.1.jar",
+            "MD5": "9dde48197fda263b0f93429ec6d09ba6",
+            "path": "mods/AdvancedAE-1.3.2-1.20.1.jar"
+          }
+        },
+        {
+          "id": "ae2ao-8.1.0-1.20.1.jar",
+          "name": "ae2ao-8.1.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22080,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ae2ao-8.1.0-1.20.1.jar",
+            "MD5": "e117b3c7c8dcad01163ce7d683376ada",
+            "path": "mods/ae2ao-8.1.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "ae2wtlib-15.3.3-forge.jar",
+          "name": "ae2wtlib-15.3.3-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 229518,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ae2wtlib-15.3.3-forge.jar",
+            "MD5": "9e60a31acb384e832f03bcb16e092ec9",
+            "path": "mods/ae2wtlib-15.3.3-forge.jar"
+          }
+        },
+        {
+          "id": "AEInfinityBooster-1.20.1-1.0.0+51.jar",
+          "name": "AEInfinityBooster-1.20.1-1.0.0+51.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25924,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/AEInfinityBooster-1.20.1-1.0.0+51.jar",
+            "MD5": "d36fb793021c5c76a089fa900667946c",
+            "path": "mods/AEInfinityBooster-1.20.1-1.0.0+51.jar"
+          }
+        },
+        {
+          "id": "aether-1.20.1-1.5.2-neoforge.jar",
+          "name": "aether-1.20.1-1.5.2-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39746319,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/aether-1.20.1-1.5.2-neoforge.jar",
+            "MD5": "3508066e170a010e8a466eea05579b85",
+            "path": "mods/aether-1.20.1-1.5.2-neoforge.jar"
+          }
+        },
+        {
+          "id": "alexscaves-2.0.2.jar",
+          "name": "alexscaves-2.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 74871657,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/alexscaves-2.0.2.jar",
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5",
+            "path": "mods/alexscaves-2.0.2.jar"
+          }
+        },
+        {
+          "id": "alexsmobs-1.22.9.jar",
+          "name": "alexsmobs-1.22.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26350793,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6",
+            "path": "mods/alexsmobs-1.22.9.jar"
+          }
+        },
+        {
+          "id": "alltheleaks-1.1.1+1.20.1-forge.jar",
+          "name": "alltheleaks-1.1.1+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1187126,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/alltheleaks-1.1.1+1.20.1-forge.jar",
+            "MD5": "df84fbdadaf7947dc530872fa60fbc56",
+            "path": "mods/alltheleaks-1.1.1+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "apocalypticarsenal-1.0.1.jar",
+          "name": "apocalypticarsenal-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3080423,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/apocalypticarsenal-1.0.1.jar",
+            "MD5": "1e3fb8c28a51ddd2ef3d4bf21bb1a86d",
+            "path": "mods/apocalypticarsenal-1.0.1.jar"
+          }
+        },
+        {
+          "id": "ApothicAttributes-1.20.1-1.3.7.jar",
+          "name": "ApothicAttributes-1.20.1-1.3.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 227511,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ApothicAttributes-1.20.1-1.3.7.jar",
+            "MD5": "d4f8d1945416d5150cd67d27469b5ce9",
+            "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar"
+          }
+        },
+        {
+          "id": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47428,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953",
+            "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+          }
+        },
+        {
+          "id": "Applied-Mekanistics-1.4.3.jar",
+          "name": "Applied-Mekanistics-1.4.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 185707,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Applied-Mekanistics-1.4.3.jar",
+            "MD5": "a7c6ad5511c4f60f2c8013bf55cae5a2",
+            "path": "mods/Applied-Mekanistics-1.4.3.jar"
+          }
+        },
+        {
+          "id": "appliedenergistics2-forge-15.4.10.jar",
+          "name": "appliedenergistics2-forge-15.4.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8495956,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/appliedenergistics2-forge-15.4.10.jar",
+            "MD5": "69e47ebd80184d34176cebeb6233a234",
+            "path": "mods/appliedenergistics2-forge-15.4.10.jar"
+          }
+        },
+        {
+          "id": "aquamirae-forge-1.20.1-6.1.2.jar",
+          "name": "aquamirae-forge-1.20.1-6.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17954713,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/aquamirae-forge-1.20.1-6.1.2.jar",
+            "MD5": "6e00c7963c5c5c8ccf6e31efe8228a47",
+            "path": "mods/aquamirae-forge-1.20.1-6.1.2.jar"
+          }
+        },
+        {
+          "id": "architectury-9.2.14-forge.jar",
+          "name": "architectury-9.2.14-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 580602,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5",
+            "path": "mods/architectury-9.2.14-forge.jar"
+          }
+        },
+        {
+          "id": "armourersworkshop-forge-1.20.1-3.2.7-beta.jar",
+          "name": "armourersworkshop-forge-1.20.1-3.2.7-beta.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5904485,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/armourersworkshop-forge-1.20.1-3.2.7-beta.jar",
+            "MD5": "24414e0c8a6cfef7bfa3ac7ab653cc14",
+            "path": "mods/armourersworkshop-forge-1.20.1-3.2.7-beta.jar"
+          }
+        },
+        {
+          "id": "artifacts-forge-9.5.16.jar",
+          "name": "artifacts-forge-9.5.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 850457,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/artifacts-forge-9.5.16.jar",
+            "MD5": "85081468e7498005f5dfdab2ae520097",
+            "path": "mods/artifacts-forge-9.5.16.jar"
+          }
+        },
+        {
+          "id": "athena-forge-1.20.1-3.1.2.jar",
+          "name": "athena-forge-1.20.1-3.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 91808,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/athena-forge-1.20.1-3.1.2.jar",
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484",
+            "path": "mods/athena-forge-1.20.1-3.1.2.jar"
+          }
+        },
+        {
+          "id": "BadOptimizations-2.3.1-1.20.1.jar",
+          "name": "BadOptimizations-2.3.1-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 452475,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/BadOptimizations-2.3.1-1.20.1.jar",
+            "MD5": "1c89fecc5ed73e722b24cba5cb42399c",
+            "path": "mods/BadOptimizations-2.3.1-1.20.1.jar"
+          }
+        },
+        {
+          "id": "balm-forge-1.20.1-7.3.37-all.jar",
+          "name": "balm-forge-1.20.1-7.3.37-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 590486,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/balm-forge-1.20.1-7.3.37-all.jar",
+            "MD5": "e4d3fb7b0d8e9271aca89f7964367b1a",
+            "path": "mods/balm-forge-1.20.1-7.3.37-all.jar"
+          }
+        },
+        {
+          "id": "basically_signs-1.2.0.jar",
+          "name": "basically_signs-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 614948,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/basically_signs-1.2.0.jar",
+            "MD5": "f93a84d3ae8a87f454e0721f2ea18093",
+            "path": "mods/basically_signs-1.2.0.jar"
+          }
+        },
+        {
+          "id": "bbs-1.20.1-0.1.3-forge.jar",
+          "name": "bbs-1.20.1-0.1.3-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14852,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/bbs-1.20.1-0.1.3-forge.jar",
+            "MD5": "2d00ec049a1d8f3fea7f4c2588c8c8cc",
+            "path": "mods/bbs-1.20.1-0.1.3-forge.jar"
+          }
+        },
+        {
+          "id": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
+          "name": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
+          "type": "File",
+          "artifact": {
+            "size": 194329783,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/BeautyDriveHome2.0(1.16-1.20)cut.jar",
+            "MD5": "0ba4f62b6ddd237a5e4bebf2534eb188",
+            "path": "mods/BeautyDriveHome2.0(1.16-1.20)cut.jar"
+          }
+        },
+        {
+          "id": "bendy-lib-forge-4.0.0.jar",
+          "name": "bendy-lib-forge-4.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50745,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/bendy-lib-forge-4.0.0.jar",
+            "MD5": "4f270cbc45ac11b6747c90ce2ca1b89a",
+            "path": "mods/bendy-lib-forge-4.0.0.jar"
+          }
+        },
+        {
+          "id": "berezka_api-1.2.3.jar",
+          "name": "berezka_api-1.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69440,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/berezka_api-1.2.3.jar",
+            "MD5": "ffa83164c3e4485a7ecd80115fece0c9",
+            "path": "mods/berezka_api-1.2.3.jar"
+          }
+        },
+        {
+          "id": "bettervillage-forge-1.20.1-3.3.1-all.jar",
+          "name": "bettervillage-forge-1.20.1-3.3.1-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2612506,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/bettervillage-forge-1.20.1-3.3.1-all.jar",
+            "MD5": "7d46cc7c55571ae66cd40c5dcbc27014",
+            "path": "mods/bettervillage-forge-1.20.1-3.3.1-all.jar"
+          }
+        },
+        {
+          "id": "blockui-1.20.1-1.0.194.jar",
+          "name": "blockui-1.20.1-1.0.194.jar",
+          "type": "File",
+          "artifact": {
+            "size": 390916,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/blockui-1.20.1-1.0.194.jar",
+            "MD5": "05a2a4bb0377129d57cdbc453a9c9c6e",
+            "path": "mods/blockui-1.20.1-1.0.194.jar"
+          }
+        },
+        {
+          "id": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "name": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 343962,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+            "MD5": "46c8e7f9bcfa984bd576e448df2beb25",
+            "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar"
+          }
+        },
+        {
+          "id": "born_in_chaos_[Forge]1.20.1_1.7.3.jar",
+          "name": "born_in_chaos_[Forge]1.20.1_1.7.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11824309,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/born_in_chaos_[Forge]1.20.1_1.7.3.jar",
+            "MD5": "defb8c63b2508befc7046db2b87ddf14",
+            "path": "mods/born_in_chaos_[Forge]1.20.1_1.7.3.jar"
+          }
+        },
+        {
+          "id": "braziliandelight-forge-2.0.3+1.20.1.jar",
+          "name": "braziliandelight-forge-2.0.3+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2813612,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/braziliandelight-forge-2.0.3+1.20.1.jar",
+            "MD5": "32784010d8a9fef98e1d20b76b498172",
+            "path": "mods/braziliandelight-forge-2.0.3+1.20.1.jar"
+          }
+        },
+        {
+          "id": "BRCC 1.0.5 1.16.5-1.20.1.jar",
+          "name": "BRCC 1.0.5 1.16.5-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35201913,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/BRCC%201.0.5%201.16.5-1.20.1.jar",
+            "MD5": "600c02de12ce8169016fda6e3ac167cc",
+            "path": "mods/BRCC 1.0.5 1.16.5-1.20.1.jar"
+          }
+        },
+        {
+          "id": "brightnessslider-forge-1.0-1.20.jar",
+          "name": "brightnessslider-forge-1.0-1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 42293,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/brightnessslider-forge-1.0-1.20.jar",
+            "MD5": "9d827ff4945fe818cb0bd73d3ba929e7",
+            "path": "mods/brightnessslider-forge-1.0-1.20.jar"
+          }
+        },
+        {
+          "id": "bwncr-forge-1.20.1-3.17.2.jar",
+          "name": "bwncr-forge-1.20.1-3.17.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28225,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/bwncr-forge-1.20.1-3.17.2.jar",
+            "MD5": "fd8302218c36c9a5cbaec4087de8b399",
+            "path": "mods/bwncr-forge-1.20.1-3.17.2.jar"
+          }
+        },
+        {
+          "id": "caelus-forge-3.2.0+1.20.1.jar",
+          "name": "caelus-forge-3.2.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 40125,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/caelus-forge-3.2.0+1.20.1.jar",
+            "MD5": "e37854c44b1849b753afc4a205f31b46",
+            "path": "mods/caelus-forge-3.2.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "cannibal-1.0.5-1.20.1.jar",
+          "name": "cannibal-1.0.5-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1118585,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/cannibal-1.0.5-1.20.1.jar",
+            "MD5": "78ee96446f44b42c80d3c5fb1865a7f0",
+            "path": "mods/cannibal-1.0.5-1.20.1.jar"
+          }
+        },
+        {
+          "id": "carryon-forge-1.20.1-2.1.2.7.jar",
+          "name": "carryon-forge-1.20.1-2.1.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 439457,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/carryon-forge-1.20.1-2.1.2.7.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7",
+            "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar"
+          }
+        },
+        {
+          "id": "chipped-forge-1.20.1-3.0.7.jar",
+          "name": "chipped-forge-1.20.1-3.0.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15060263,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/chipped-forge-1.20.1-3.0.7.jar",
+            "MD5": "c6c76e78805b357757bf47b04c7286e7",
+            "path": "mods/chipped-forge-1.20.1-3.0.7.jar"
+          }
+        },
+        {
+          "id": "christmas_culinary_decorations-2.0.0-forge-1.20.1.jar",
+          "name": "christmas_culinary_decorations-2.0.0-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3612066,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/christmas_culinary_decorations-2.0.0-forge-1.20.1.jar",
+            "MD5": "fb082f84bb25c9654e6b26b60bd9cee9",
+            "path": "mods/christmas_culinary_decorations-2.0.0-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "citadel-2.6.2-1.20.1.jar",
+          "name": "citadel-2.6.2-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3185379,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/citadel-2.6.2-1.20.1.jar",
+            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc",
+            "path": "mods/citadel-2.6.2-1.20.1.jar"
+          }
+        },
+        {
+          "id": "cloth-config-11.1.136-forge.jar",
+          "name": "cloth-config-11.1.136-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1181413,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53",
+            "path": "mods/cloth-config-11.1.136-forge.jar"
+          }
+        },
+        {
+          "id": "Clumps-forge-1.20.1-12.0.0.4.jar",
+          "name": "Clumps-forge-1.20.1-12.0.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20299,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975",
+            "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
+          }
+        },
+        {
+          "id": "CMDCam_FORGE_v2.2.0_mc1.20.1 (1).jar",
+          "name": "CMDCam_FORGE_v2.2.0_mc1.20.1 (1).jar",
+          "type": "File",
+          "artifact": {
+            "size": 138723,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CMDCam_FORGE_v2.2.0_mc1.20.1%20(1).jar",
+            "MD5": "9888e81b3be43fd6cc7d6d2509552382",
+            "path": "mods/CMDCam_FORGE_v2.2.0_mc1.20.1 (1).jar"
+          }
+        },
+        {
+          "id": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+          "name": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1472390,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+            "MD5": "5c2f4b34587c6596d1d50e5bf76ee448",
+            "path": "mods/CodeChickenLib-1.20.1-4.4.0.516-universal.jar"
+          }
+        },
+        {
+          "id": "collective-1.20.1-8.13.jar",
+          "name": "collective-1.20.1-8.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 665169,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/collective-1.20.1-8.13.jar",
+            "MD5": "abe112af460bf8befe26605a5e4c4248",
+            "path": "mods/collective-1.20.1-8.13.jar"
+          }
+        },
+        {
+          "id": "common-networking-forge-1.0.5-1.20.1.jar",
+          "name": "common-networking-forge-1.0.5-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20701,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/common-networking-forge-1.0.5-1.20.1.jar",
+            "MD5": "420b80bc67b01b4e86ed29a88b1155c3",
+            "path": "mods/common-networking-forge-1.0.5-1.20.1.jar"
+          }
+        },
+        {
+          "id": "CommonCapabilities-1.20.1-2.9.11.jar",
+          "name": "CommonCapabilities-1.20.1-2.9.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 251614,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CommonCapabilities-1.20.1-2.9.11.jar",
+            "MD5": "f87a3d339b635a79013ffc712dc5f802",
+            "path": "mods/CommonCapabilities-1.20.1-2.9.11.jar"
+          }
+        },
+        {
+          "id": "configured-forge-1.20.1-2.2.3.jar",
+          "name": "configured-forge-1.20.1-2.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 418929,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/configured-forge-1.20.1-2.2.3.jar",
+            "MD5": "9380dc31c599c523a5682a4025fceb92",
+            "path": "mods/configured-forge-1.20.1-2.2.3.jar"
+          }
+        },
+        {
+          "id": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+          "name": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 873714,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/connectedglass-1.1.14-forge-mc1.20.1.jar",
+            "MD5": "7b7a482c48dc0e76120f0bd91af1e01a",
+            "path": "mods/connectedglass-1.1.14-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "connectivity-1.20.1-7.2.jar",
+          "name": "connectivity-1.20.1-7.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 112268,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/connectivity-1.20.1-7.2.jar",
+            "MD5": "b18f084c146f9725fe85f6a2fb869721",
+            "path": "mods/connectivity-1.20.1-7.2.jar"
+          }
+        },
+        {
+          "id": "Controlling-forge-1.20.1-12.0.2.jar",
+          "name": "Controlling-forge-1.20.1-12.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115280,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa",
+            "path": "mods/Controlling-forge-1.20.1-12.0.2.jar"
+          }
+        },
+        {
+          "id": "copperandtuffbackport-1.2.jar",
+          "name": "copperandtuffbackport-1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 754116,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/copperandtuffbackport-1.2.jar",
+            "MD5": "936af7f7481cb25383eeb9548540dc75",
+            "path": "mods/copperandtuffbackport-1.2.jar"
+          }
+        },
+        {
+          "id": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
+          "name": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 360700,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+            "MD5": "a9ea019fc3f069f5f47f0d8451dac4cd",
+            "path": "mods/Corgilib-Forge-1.20.1-4.0.3.4.jar"
+          }
+        },
+        {
+          "id": "corpse-forge-1.20.1-1.0.23.jar",
+          "name": "corpse-forge-1.20.1-1.0.23.jar",
+          "type": "File",
+          "artifact": {
+            "size": 245644,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/corpse-forge-1.20.1-1.0.23.jar",
+            "MD5": "a486f676f5e47e5846e31cb66cb5c16d",
+            "path": "mods/corpse-forge-1.20.1-1.0.23.jar"
+          }
+        },
+        {
+          "id": "cosmeticarmorreworked-1.20.1-v1a.jar",
+          "name": "cosmeticarmorreworked-1.20.1-v1a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 88752,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/cosmeticarmorreworked-1.20.1-v1a.jar",
+            "MD5": "2454075e9a25cbadc0fce66502e3261d",
+            "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
+          }
+        },
+        {
+          "id": "craftedcore-5.8.jar",
+          "name": "craftedcore-5.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 327526,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/craftedcore-5.8.jar",
+            "MD5": "600b15bf57dadd49db39ba13b5ccb265",
+            "path": "mods/craftedcore-5.8.jar"
+          }
+        },
+        {
+          "id": "create-1.20.1-6.0.8.jar",
+          "name": "create-1.20.1-6.0.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19170905,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/create-1.20.1-6.0.8.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310",
+            "path": "mods/create-1.20.1-6.0.8.jar"
+          }
+        },
+        {
+          "id": "createaddition-1.20.1-1.3.3.jar",
+          "name": "createaddition-1.20.1-1.3.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1577313,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/createaddition-1.20.1-1.3.3.jar",
+            "MD5": "1c0d2275ead3e4756d77ac5a86f135ab",
+            "path": "mods/createaddition-1.20.1-1.3.3.jar"
+          }
+        },
+        {
+          "id": "createbetterfps-1.20.1-1.1.1.jar",
+          "name": "createbetterfps-1.20.1-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24819,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/createbetterfps-1.20.1-1.1.1.jar",
+            "MD5": "36f7928d52a27109536bcd5a21f5214d",
+            "path": "mods/createbetterfps-1.20.1-1.1.1.jar"
+          }
+        },
+        {
+          "id": "createdeco-2.0.3-1.20.1-forge.jar",
+          "name": "createdeco-2.0.3-1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3509013,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/createdeco-2.0.3-1.20.1-forge.jar",
+            "MD5": "3e0976b862fd087493c7356f623f5cd7",
+            "path": "mods/createdeco-2.0.3-1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+          "name": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1158417,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "MD5": "7aabe100af362d0df92d8ea1dbc2667b",
+            "path": "mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "Cucumber-1.20.1-7.0.16.jar",
+          "name": "Cucumber-1.20.1-7.0.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271462,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Cucumber-1.20.1-7.0.16.jar",
+            "MD5": "d7d34a7584041977e493198a666c2db4",
+            "path": "mods/Cucumber-1.20.1-7.0.16.jar"
+          }
+        },
+        {
+          "id": "Cuffed-1.20.1-1.3.11.jar",
+          "name": "Cuffed-1.20.1-1.3.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 869563,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Cuffed-1.20.1-1.3.11.jar",
+            "MD5": "826f466b6b67b3e60b5702c2af546d85",
+            "path": "mods/Cuffed-1.20.1-1.3.11.jar"
+          }
+        },
+        {
+          "id": "cupboard-1.20.1-2.7.jar",
+          "name": "cupboard-1.20.1-2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25983,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a",
+            "path": "mods/cupboard-1.20.1-2.7.jar"
+          }
+        },
+        {
+          "id": "curios-forge-5.14.1+1.20.1.jar",
+          "name": "curios-forge-5.14.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 398066,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159",
+            "path": "mods/curios-forge-5.14.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "CustomPlayerModels-1.20-0.6.25a.jar",
+          "name": "CustomPlayerModels-1.20-0.6.25a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2792497,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CustomPlayerModels-1.20-0.6.25a.jar",
+            "MD5": "1131bc0fdee0eb51087955822128b271",
+            "path": "mods/CustomPlayerModels-1.20-0.6.25a.jar"
+          }
+        },
+        {
+          "id": "CyclopsCore-1.20.1-1.21.3.jar",
+          "name": "CyclopsCore-1.20.1-1.21.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 911883,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/CyclopsCore-1.20.1-1.21.3.jar",
+            "MD5": "ff1d61611dec2dd212a5c29082ef2e93",
+            "path": "mods/CyclopsCore-1.20.1-1.21.3.jar"
+          }
+        },
+        {
+          "id": "daffas_arsenal-2.7.0.jar",
+          "name": "daffas_arsenal-2.7.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11447349,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/daffas_arsenal-2.7.0.jar",
+            "MD5": "b7bbb5218186c48c33e8bb52c286ab14",
+            "path": "mods/daffas_arsenal-2.7.0.jar"
+          }
+        },
+        {
+          "id": "darkness-forge-1.20.1-2.0.103-fork.jar",
+          "name": "darkness-forge-1.20.1-2.0.103-fork.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29331,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/darkness-forge-1.20.1-2.0.103-fork.jar",
+            "MD5": "93217dc8f8a6f2745073bb190f82df1f",
+            "path": "mods/darkness-forge-1.20.1-2.0.103-fork.jar"
+          }
+        },
+        {
+          "id": "deltaboxlib-forge-2.2.0+1.20.1.jar",
+          "name": "deltaboxlib-forge-2.2.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 804529,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/deltaboxlib-forge-2.2.0+1.20.1.jar",
+            "MD5": "0b99cd9f14b23e69f1427e34bd211702",
+            "path": "mods/deltaboxlib-forge-2.2.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar",
+          "name": "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1141274,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar",
+            "MD5": "81979c0894bbe4af72a488532e898988",
+            "path": "mods/domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar"
+          }
+        },
+        {
+          "id": "drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar",
+          "name": "drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 285003,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar",
+            "MD5": "029b16e576071b67f3de0df7215a1062",
+            "path": "mods/drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar"
+          }
+        },
+        {
+          "id": "dummmmmmy-1.20-2.0.9.jar",
+          "name": "dummmmmmy-1.20-2.0.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 363044,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/dummmmmmy-1.20-2.0.9.jar",
+            "MD5": "4d3c04e63f560cfb51d100b7a4e78563",
+            "path": "mods/dummmmmmy-1.20-2.0.9.jar"
+          }
+        },
+        {
+          "id": "Dynmap-3.6-forge-1.20.jar",
+          "name": "Dynmap-3.6-forge-1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10358145,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Dynmap-3.6-forge-1.20.jar",
+            "MD5": "5265c163c46fcc1b2ac653d3cd27c2d4",
+            "path": "mods/Dynmap-3.6-forge-1.20.jar"
+          }
+        },
+        {
+          "id": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+          "name": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115947,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+            "MD5": "4818f5240dc07c9da2fafe9b1c344305",
+            "path": "mods/EasyMagic-v8.0.1-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "easy_npc-forge-1.20.1-5.9.2.jar",
+          "name": "easy_npc-forge-1.20.1-5.9.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1612566,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/easy_npc-forge-1.20.1-5.9.2.jar",
+            "MD5": "69780cf62482602b3457bcf2e0656c9b",
+            "path": "mods/easy_npc-forge-1.20.1-5.9.2.jar"
+          }
+        },
+        {
+          "id": "elevatorid-1.20.1-1.9.1-forge.jar",
+          "name": "elevatorid-1.20.1-1.9.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 187868,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/elevatorid-1.20.1-1.9.1-forge.jar",
+            "MD5": "b4784b8ae695f179d0aefaaa82018968",
+            "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar"
+          }
+        },
+        {
+          "id": "embeddium-0.3.31+mc1.20.1.jar",
+          "name": "embeddium-0.3.31+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1320675,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
+            "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "Emojiful-Forge-1.20.1-4.2.0.jar",
+          "name": "Emojiful-Forge-1.20.1-4.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 262412,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Emojiful-Forge-1.20.1-4.2.0.jar",
+            "MD5": "0ba360de4747e64c6325b74c0055479a",
+            "path": "mods/Emojiful-Forge-1.20.1-4.2.0.jar"
+          }
+        },
+        {
+          "id": "emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+          "name": "emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 680255,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "MD5": "636c62379cd7c5201a70fd457808e331",
+            "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
+          }
+        },
+        {
+          "id": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+          "name": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69476,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+            "MD5": "445422556264d2129fde704f35d9680f",
+            "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
+          }
+        },
+        {
+          "id": "enderchests-forge-1.20.1-1.4.jar",
+          "name": "enderchests-forge-1.20.1-1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 263835,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/enderchests-forge-1.20.1-1.4.jar",
+            "MD5": "ed2a6c64863dba1c655a833f27d68f8b",
+            "path": "mods/enderchests-forge-1.20.1-1.4.jar"
+          }
+        },
+        {
+          "id": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+          "name": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 246017,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/EnderStorage-1.20.1-2.11.0.188-universal.jar",
+            "MD5": "8c6cc85f76b45b52d5feef1baa10f764",
+            "path": "mods/EnderStorage-1.20.1-2.11.0.188-universal.jar"
+          }
+        },
+        {
+          "id": "entityculling-forge-1.9.3-mc1.20.1.jar",
+          "name": "entityculling-forge-1.9.3-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 477884,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/entityculling-forge-1.9.3-mc1.20.1.jar",
+            "MD5": "ae4f74f187b64f3b107e97b949e4a9e8",
+            "path": "mods/entityculling-forge-1.9.3-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "EpheroLib-1.20.1-FORGE-1.2.0.jar",
+          "name": "EpheroLib-1.20.1-FORGE-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 756864,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar",
+            "MD5": "f8b4d202f3fc4ffaf1bb8efd79f860bd",
+            "path": "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar"
+          }
+        },
+        {
+          "id": "Epic Dungeons-0.1.04-Forge-1.19-1.20.1.jar",
+          "name": "Epic Dungeons-0.1.04-Forge-1.19-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5144310,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Epic%20Dungeons-0.1.04-Forge-1.19-1.20.1.jar",
+            "MD5": "ddcb561fc57e81ded04abad4c4b27d83",
+            "path": "mods/Epic Dungeons-0.1.04-Forge-1.19-1.20.1.jar"
+          }
+        },
+        {
+          "id": "EvilCraft-1.20.1-1.2.59.jar",
+          "name": "EvilCraft-1.20.1-1.2.59.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2744817,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/EvilCraft-1.20.1-1.2.59.jar",
+            "MD5": "ecb86c1877397ffe347b102c3f314bd7",
+            "path": "mods/EvilCraft-1.20.1-1.2.59.jar"
+          }
+        },
+        {
+          "id": "Excessive Building 1.20.1-1.20.1-3.0.1.jar",
+          "name": "Excessive Building 1.20.1-1.20.1-3.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5065374,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Excessive%20Building%201.20.1-1.20.1-3.0.1.jar",
+            "MD5": "e4e1b1a15fddbf58fcd7c179506825a8",
+            "path": "mods/Excessive Building 1.20.1-1.20.1-3.0.1.jar"
+          }
+        },
+        {
+          "id": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
+          "name": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 155257,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ExplorersCompass-1.20.1-1.3.3-forge.jar",
+            "MD5": "9b52fd19e49b6fc0d964a43b90de00e2",
+            "path": "mods/ExplorersCompass-1.20.1-1.3.3-forge.jar"
+          }
+        },
+        {
+          "id": "exposure-1.20.1-1.7.16-forge.jar",
+          "name": "exposure-1.20.1-1.7.16-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1360685,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/exposure-1.20.1-1.7.16-forge.jar",
+            "MD5": "5e0d88ba6f4cfe04c6d8158f91b038db",
+            "path": "mods/exposure-1.20.1-1.7.16-forge.jar"
+          }
+        },
+        {
+          "id": "exposure_catalog-1.20.1-1.0.3-forge.jar",
+          "name": "exposure_catalog-1.20.1-1.0.3-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 146211,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/exposure_catalog-1.20.1-1.0.3-forge.jar",
+            "MD5": "6336653ecb9597a8bff62a3ada4d3821",
+            "path": "mods/exposure_catalog-1.20.1-1.0.3-forge.jar"
+          }
+        },
+        {
+          "id": "ExtendedAE-1.20-1.4.9-forge.jar",
+          "name": "ExtendedAE-1.20-1.4.9-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2672648,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ExtendedAE-1.20-1.4.9-forge.jar",
+            "MD5": "25b69893094daf52bd8b77964404bfdc",
+            "path": "mods/ExtendedAE-1.20-1.4.9-forge.jar"
+          }
+        },
+        {
+          "id": "eyemod-3.0.0.jar",
+          "name": "eyemod-3.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 432098,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/eyemod-3.0.0.jar",
+            "MD5": "e977511b6f65d208ea8889205c9f48e1",
+            "path": "mods/eyemod-3.0.0.jar"
+          }
+        },
+        {
+          "id": "ezvcsurvival-forge-1.20.1-1.4.2.jar",
+          "name": "ezvcsurvival-forge-1.20.1-1.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 67306,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ezvcsurvival-forge-1.20.1-1.4.2.jar",
+            "MD5": "24ce2cfce66a8265268f9624e61a5c78",
+            "path": "mods/ezvcsurvival-forge-1.20.1-1.4.2.jar"
+          }
+        },
+        {
+          "id": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+          "name": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4472193,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fancymenu_forge_3.8.1_MC_1.20.1.jar",
+            "MD5": "bf41a4251d431d92b89b6c91f84d5546",
+            "path": "mods/fancymenu_forge_3.8.1_MC_1.20.1.jar"
+          }
+        },
+        {
+          "id": "fantasyfurniture-1.20.1-9.0.0.jar",
+          "name": "fantasyfurniture-1.20.1-9.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3202951,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fantasyfurniture-1.20.1-9.0.0.jar",
+            "MD5": "0712007756c04d20100121c31510d346",
+            "path": "mods/fantasyfurniture-1.20.1-9.0.0.jar"
+          }
+        },
+        {
+          "id": "FarmersDelight-1.20.1-1.2.9.jar",
+          "name": "FarmersDelight-1.20.1-1.2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2978080,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177",
+            "path": "mods/FarmersDelight-1.20.1-1.2.9.jar"
+          }
+        },
+        {
+          "id": "farmers_delight_christmas_edition-V1.0.2-forge-1.20.1.jar",
+          "name": "farmers_delight_christmas_edition-V1.0.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 442161,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/farmers_delight_christmas_edition-V1.0.2-forge-1.20.1.jar",
+            "MD5": "adb44eba77de69f082759b150cc954c7",
+            "path": "mods/farmers_delight_christmas_edition-V1.0.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+          "name": "fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10557,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+            "MD5": "d1e81c87cc785a956f5972a3b0d2e7f2",
+            "path": "mods/fast-ip-ping-v1.0.7-mc1.20.4-forge.jar"
+          }
+        },
+        {
+          "id": "FastFurnace-1.20.1-8.0.2.jar",
+          "name": "FastFurnace-1.20.1-8.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6170,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FastFurnace-1.20.1-8.0.2.jar",
+            "MD5": "48b8d2df29ea216a625928e29a6434da",
+            "path": "mods/FastFurnace-1.20.1-8.0.2.jar"
+          }
+        },
+        {
+          "id": "fastpaintings-1.20-1.2.7.jar",
+          "name": "fastpaintings-1.20-1.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 309400,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fastpaintings-1.20-1.2.7.jar",
+            "MD5": "d14882d3a9ddc95bb3b9dc1e53928e25",
+            "path": "mods/fastpaintings-1.20-1.2.7.jar"
+          }
+        },
+        {
+          "id": "FastSuite-1.20.1-5.1.0.jar",
+          "name": "FastSuite-1.20.1-5.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25305,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FastSuite-1.20.1-5.1.0.jar",
+            "MD5": "5308931eb0df44e4f39c06a7696f42ce",
+            "path": "mods/FastSuite-1.20.1-5.1.0.jar"
+          }
+        },
+        {
+          "id": "FastWorkbench-1.20.1-8.0.4.jar",
+          "name": "FastWorkbench-1.20.1-8.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28188,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FastWorkbench-1.20.1-8.0.4.jar",
+            "MD5": "2b55c4786cc726b0757689af28b97e7e",
+            "path": "mods/FastWorkbench-1.20.1-8.0.4.jar"
+          }
+        },
+        {
+          "id": "ferritecore-6.0.1-forge.jar",
+          "name": "ferritecore-6.0.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 123034,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383",
+            "path": "mods/ferritecore-6.0.1-forge.jar"
+          }
+        },
+        {
+          "id": "figura-0.1.5+1.20.1-forge-mc.jar",
+          "name": "figura-0.1.5+1.20.1-forge-mc.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2338069,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/figura-0.1.5+1.20.1-forge-mc.jar",
+            "MD5": "9a14ac7b2c6dea0085570fe4bb7a4b69",
+            "path": "mods/figura-0.1.5+1.20.1-forge-mc.jar"
+          }
+        },
+        {
+          "id": "FluxNetworks-1.20.1-7.2.1.15.jar",
+          "name": "FluxNetworks-1.20.1-7.2.1.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 515573,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FluxNetworks-1.20.1-7.2.1.15.jar",
+            "MD5": "d5584d49027026283310ba3742424128",
+            "path": "mods/FluxNetworks-1.20.1-7.2.1.15.jar"
+          }
+        },
+        {
+          "id": "forge-delicate_dyes-1.20.1-1.1.0.jar",
+          "name": "forge-delicate_dyes-1.20.1-1.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1277644,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/forge-delicate_dyes-1.20.1-1.1.0.jar",
+            "MD5": "89a7c8954f82956bc4e99730471d5bbe",
+            "path": "mods/forge-delicate_dyes-1.20.1-1.1.0.jar"
+          }
+        },
+        {
+          "id": "forge-runiclib-1.20.1-4.3.7.jar",
+          "name": "forge-runiclib-1.20.1-4.3.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 134746,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/forge-runiclib-1.20.1-4.3.7.jar",
+            "MD5": "f0de6adba795934a6defd101e0d5f3d9",
+            "path": "mods/forge-runiclib-1.20.1-4.3.7.jar"
+          }
+        },
+        {
+          "id": "forge-urban_decor-1.20.1-1.0.6.jar",
+          "name": "forge-urban_decor-1.20.1-1.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1634012,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/forge-urban_decor-1.20.1-1.0.6.jar",
+            "MD5": "d78203a969b005f1fed4e51170f15ad3",
+            "path": "mods/forge-urban_decor-1.20.1-1.0.6.jar"
+          }
+        },
+        {
+          "id": "FramedBlocks-9.4.2.jar",
+          "name": "FramedBlocks-9.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4251277,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/FramedBlocks-9.4.2.jar",
+            "MD5": "aaf372a3d903d167c138e2eb8110078b",
+            "path": "mods/FramedBlocks-9.4.2.jar"
+          }
+        },
+        {
+          "id": "framework-forge-1.20.1-0.7.15.jar",
+          "name": "framework-forge-1.20.1-0.7.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 309560,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/framework-forge-1.20.1-0.7.15.jar",
+            "MD5": "135716c910b1036a6dd2f0fe0bc7b03d",
+            "path": "mods/framework-forge-1.20.1-0.7.15.jar"
+          }
+        },
+        {
+          "id": "functionalstorage-1.20.1-1.2.13.jar",
+          "name": "functionalstorage-1.20.1-1.2.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 682220,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/functionalstorage-1.20.1-1.2.13.jar",
+            "MD5": "b8c57bd1a9c97ba96101c56557062c6f",
+            "path": "mods/functionalstorage-1.20.1-1.2.13.jar"
+          }
+        },
+        {
+          "id": "fusion-1.2.11a-forge-mc1.20.1.jar",
+          "name": "fusion-1.2.11a-forge-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 544250,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fusion-1.2.11a-forge-mc1.20.1.jar",
+            "MD5": "709b729df7478057bc30c15a6091b274",
+            "path": "mods/fusion-1.2.11a-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "fzzy_config-0.7.3+1.20.1+forge.jar",
+          "name": "fzzy_config-0.7.3+1.20.1+forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2312969,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/fzzy_config-0.7.3+1.20.1+forge.jar",
+            "MD5": "bcbfb7e94f16a15ad5d13fb4999a5b78",
+            "path": "mods/fzzy_config-0.7.3+1.20.1+forge.jar"
+          }
+        },
+        {
+          "id": "gamediscs-0.3.2-forge.jar",
+          "name": "gamediscs-0.3.2-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 241786,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/gamediscs-0.3.2-forge.jar",
+            "MD5": "1b5214a4f1504e701ec2bc03aed66a32",
+            "path": "mods/gamediscs-0.3.2-forge.jar"
+          }
+        },
+        {
+          "id": "geckolib-forge-1.20.1-4.8.2.jar",
+          "name": "geckolib-forge-1.20.1-4.8.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1038979,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde",
+            "path": "mods/geckolib-forge-1.20.1-4.8.2.jar"
+          }
+        },
+        {
+          "id": "Glodium-1.20-1.5-forge.jar",
+          "name": "Glodium-1.20-1.5-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 60550,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Glodium-1.20-1.5-forge.jar",
+            "MD5": "fc1d04ddd88b378780041d5f06d50f8a",
+            "path": "mods/Glodium-1.20-1.5-forge.jar"
+          }
+        },
+        {
+          "id": "Gobber2-Forge-1.20.1-2.8.9.jar",
+          "name": "Gobber2-Forge-1.20.1-2.8.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 567050,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Gobber2-Forge-1.20.1-2.8.9.jar",
+            "MD5": "f5c744aed3bf29c727c9d1090c4947bd",
+            "path": "mods/Gobber2-Forge-1.20.1-2.8.9.jar"
+          }
+        },
+        {
+          "id": "guccivuitton-1.20.1-0.2.2.jar",
+          "name": "guccivuitton-1.20.1-0.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1598544,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/guccivuitton-1.20.1-0.2.2.jar",
+            "MD5": "778589f50a0c4b513d43aa605d5c0125",
+            "path": "mods/guccivuitton-1.20.1-0.2.2.jar"
+          }
+        },
+        {
+          "id": "guideme-20.1.14.jar",
+          "name": "guideme-20.1.14.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9413204,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/guideme-20.1.14.jar",
+            "MD5": "6425ddca1593d7f73c7160e54333cfef",
+            "path": "mods/guideme-20.1.14.jar"
+          }
+        },
+        {
+          "id": "handcrafted-forge-1.20.1-3.0.6.jar",
+          "name": "handcrafted-forge-1.20.1-3.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7111059,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/handcrafted-forge-1.20.1-3.0.6.jar",
+            "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd",
+            "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar"
+          }
+        },
+        {
+          "id": "hiddennames-1.20.1-1.0.6.jar",
+          "name": "hiddennames-1.20.1-1.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47190,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/hiddennames-1.20.1-1.0.6.jar",
+            "MD5": "c1b8c0f021acffc102b9a56ada733ab3",
+            "path": "mods/hiddennames-1.20.1-1.0.6.jar"
+          }
+        },
+        {
+          "id": "horror_element_mod-1.6.2-forge-1.20.1.jar",
+          "name": "horror_element_mod-1.6.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21158234,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/horror_element_mod-1.6.2-forge-1.20.1.jar",
+            "MD5": "cf274a6cf5735639241360ef87cac7ca",
+            "path": "mods/horror_element_mod-1.6.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "IAS-Forge-1.20.1-9.0.0.jar",
+          "name": "IAS-Forge-1.20.1-9.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 312332,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/IAS-Forge-1.20.1-9.0.0.jar",
+            "MD5": "d83b9e8b614e5d9204268c7eaf25231e",
+            "path": "mods/IAS-Forge-1.20.1-9.0.0.jar"
+          }
+        },
+        {
+          "id": "Icarus-Forge-2.12.0.jar",
+          "name": "Icarus-Forge-2.12.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 328846,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Icarus-Forge-2.12.0.jar",
+            "MD5": "99a78061accf45fc049b03d2f48df30c",
+            "path": "mods/Icarus-Forge-2.12.0.jar"
+          }
+        },
+        {
+          "id": "Immersive Vehicles-1.20.1-22.18.0-pre.jar",
+          "name": "Immersive Vehicles-1.20.1-22.18.0-pre.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6203626,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Immersive%20Vehicles-1.20.1-22.18.0-pre.jar",
+            "MD5": "437d9e9d6bc89e382d841a1aee7a9325",
+            "path": "mods/Immersive Vehicles-1.20.1-22.18.0-pre.jar"
+          }
+        },
+        {
+          "id": "ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+          "name": "ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12129396,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+            "MD5": "258b3e4b57b464d686d464da3481bc33",
+            "path": "mods/ImmersiveEngineering-1.20.1-10.2.0-183.jar"
+          }
+        },
+        {
+          "id": "ImmersiveUI-FORGE-0.3.0.jar",
+          "name": "ImmersiveUI-FORGE-0.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 401514,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ImmersiveUI-FORGE-0.3.0.jar",
+            "MD5": "e92dc07b69814d6116a160f4ee3f08d5",
+            "path": "mods/ImmersiveUI-FORGE-0.3.0.jar"
+          }
+        },
+        {
+          "id": "immersive_armors-1.7.1+1.20.1-forge.jar",
+          "name": "immersive_armors-1.7.1+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1264289,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/immersive_armors-1.7.1+1.20.1-forge.jar",
+            "MD5": "9fc64d8ee36e702920f55060ddf7ef79",
+            "path": "mods/immersive_armors-1.7.1+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "immersive_melodies-0.6.0+1.20.1-forge.jar",
+          "name": "immersive_melodies-0.6.0+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5517578,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/immersive_melodies-0.6.0+1.20.1-forge.jar",
+            "MD5": "9b2903b86fbc565a3996b2d1fd78eb0d",
+            "path": "mods/immersive_melodies-0.6.0+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "improvedmobs-1.20.1-1.13.6-forge.jar",
+          "name": "improvedmobs-1.20.1-1.13.6-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 335525,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/improvedmobs-1.20.1-1.13.6-forge.jar",
+            "MD5": "7e1578dd59bf4b6e59dce3e4e1fc32c7",
+            "path": "mods/improvedmobs-1.20.1-1.13.6-forge.jar"
+          }
+        },
+        {
+          "id": "improvedsignediting-1.20.1-1.5.jar",
+          "name": "improvedsignediting-1.20.1-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39899,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/improvedsignediting-1.20.1-1.5.jar",
+            "MD5": "baf0eac59b1cf7416861eefa624c4104",
+            "path": "mods/improvedsignediting-1.20.1-1.5.jar"
+          }
+        },
+        {
+          "id": "ironchest-1.20.1-14.4.4.jar",
+          "name": "ironchest-1.20.1-14.4.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 311290,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ironchest-1.20.1-14.4.4.jar",
+            "MD5": "078fbc43b289995ca4a8cced59bbf0ef",
+            "path": "mods/ironchest-1.20.1-14.4.4.jar"
+          }
+        },
+        {
+          "id": "ironfurnaces-1.20.1-4.1.6.jar",
+          "name": "ironfurnaces-1.20.1-4.1.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 609038,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ironfurnaces-1.20.1-4.1.6.jar",
+            "MD5": "db76ec4beef580f5d7b75065ec2adf9d",
+            "path": "mods/ironfurnaces-1.20.1-4.1.6.jar"
+          }
+        },
+        {
+          "id": "irons_spellbooks-1.20.1-3.4.0.11.jar",
+          "name": "irons_spellbooks-1.20.1-3.4.0.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8784756,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/irons_spellbooks-1.20.1-3.4.0.11.jar",
+            "MD5": "772d419fad82558b4c2ed1753c5e07aa",
+            "path": "mods/irons_spellbooks-1.20.1-3.4.0.11.jar"
+          }
+        },
+        {
+          "id": "Jade-1.20.1-Forge-11.13.2.jar",
+          "name": "Jade-1.20.1-Forge-11.13.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 552486,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc",
+            "path": "mods/Jade-1.20.1-Forge-11.13.2.jar"
+          }
+        },
+        {
+          "id": "jei-1.20.1-forge-15.20.0.112.jar",
+          "name": "jei-1.20.1-forge-15.20.0.112.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1385600,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809",
+            "path": "mods/jei-1.20.1-forge-15.20.0.112.jar"
+          }
+        },
+        {
+          "id": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 625185,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098",
+            "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+          }
+        },
+        {
+          "id": "kotlinforforge-4.11.0-all.jar",
+          "name": "kotlinforforge-4.11.0-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7193768,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56",
+            "path": "mods/kotlinforforge-4.11.0-all.jar"
+          }
+        },
+        {
+          "id": "Ksyxis-1.3.4.jar",
+          "name": "Ksyxis-1.3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29869,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Ksyxis-1.3.4.jar",
+            "MD5": "665af2d0045f1ff0fde3898a49155145",
+            "path": "mods/Ksyxis-1.3.4.jar"
+          }
+        },
+        {
+          "id": "Lazr's Lib-1.20-1.1.1.jar",
+          "name": "Lazr's Lib-1.20-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 120029,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Lazr's%20Lib-1.20-1.1.1.jar",
+            "MD5": "adc32a47cfec91a0d1708d5e28f1e593",
+            "path": "mods/Lazr's Lib-1.20-1.1.1.jar"
+          }
+        },
+        {
+          "id": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+          "name": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 347536,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+            "MD5": "d508c81bf87eb35a24c20934be75952a",
+            "path": "mods/leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "letsdo-API-forge-1.2.15-forge.jar",
+          "name": "letsdo-API-forge-1.2.15-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1440591,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/letsdo-API-forge-1.2.15-forge.jar",
+            "MD5": "82d392dd5ef6064d8988592a35b3b403",
+            "path": "mods/letsdo-API-forge-1.2.15-forge.jar"
+          }
+        },
+        {
+          "id": "letsdo-herbalbrews-forge-1.0.12.jar",
+          "name": "letsdo-herbalbrews-forge-1.0.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 735868,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/letsdo-herbalbrews-forge-1.0.12.jar",
+            "MD5": "8260ace33a59f8c85b86945510b07471",
+            "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar"
+          }
+        },
+        {
+          "id": "lexiconfig-forge-1.4.18-1.jar",
+          "name": "lexiconfig-forge-1.4.18-1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 54205,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lexiconfig-forge-1.4.18-1.jar",
+            "MD5": "67bdb3974d75d540320041720e060edf",
+            "path": "mods/lexiconfig-forge-1.4.18-1.jar"
+          }
+        },
+        {
+          "id": "libraryferret-forge-1.20.1-4.0.0.jar",
+          "name": "libraryferret-forge-1.20.1-4.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 190536,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/libraryferret-forge-1.20.1-4.0.0.jar",
+            "MD5": "68ba05aaf09f053934537af691e959df",
+            "path": "mods/libraryferret-forge-1.20.1-4.0.0.jar"
+          }
+        },
+        {
+          "id": "lionfishapi-2.4-Fix.jar",
+          "name": "lionfishapi-2.4-Fix.jar",
+          "type": "File",
+          "artifact": {
+            "size": 162767,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lionfishapi-2.4-Fix.jar",
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4",
+            "path": "mods/lionfishapi-2.4-Fix.jar"
+          }
+        },
+        {
+          "id": "LocalizedChat-forge-1.20.1-5.1.3.jar",
+          "name": "LocalizedChat-forge-1.20.1-5.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23894,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/LocalizedChat-forge-1.20.1-5.1.3.jar",
+            "MD5": "664bdf8d663b708eaf9a9a23e36fbe1d",
+            "path": "mods/LocalizedChat-forge-1.20.1-5.1.3.jar"
+          }
+        },
+        {
+          "id": "Locks-Unoffical-forge-1.20.1-1.2.4.jar",
+          "name": "Locks-Unoffical-forge-1.20.1-1.2.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 615071,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Locks-Unoffical-forge-1.20.1-1.2.4.jar",
+            "MD5": "51593cac424da992f659a37040b3e5f3",
+            "path": "mods/Locks-Unoffical-forge-1.20.1-1.2.4.jar"
+          }
+        },
+        {
+          "id": "lodestone-1.20.1-1.6.4.1.jar",
+          "name": "lodestone-1.20.1-1.6.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 670934,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lodestone-1.20.1-1.6.4.1.jar",
+            "MD5": "2816fa972ca3a21e6e38783f979955be",
+            "path": "mods/lodestone-1.20.1-1.6.4.1.jar"
+          }
+        },
+        {
+          "id": "lootr-forge-1.20-0.7.35.93.jar",
+          "name": "lootr-forge-1.20-0.7.35.93.jar",
+          "type": "File",
+          "artifact": {
+            "size": 460882,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lootr-forge-1.20-0.7.35.93.jar",
+            "MD5": "2d5374b809d9ec1d7700a194b2fd0dd5",
+            "path": "mods/lootr-forge-1.20-0.7.35.93.jar"
+          }
+        },
+        {
+          "id": "lostcities-1.20-7.4.5.jar",
+          "name": "lostcities-1.20-7.4.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1247331,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lostcities-1.20-7.4.5.jar",
+            "MD5": "a6e64472c614b722e817e996af9e9fb2",
+            "path": "mods/lostcities-1.20-7.4.5.jar"
+          }
+        },
+        {
+          "id": "lradd-1.20.1-0.3.0.jar",
+          "name": "lradd-1.20.1-0.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 42492650,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lradd-1.20.1-0.3.0.jar",
+            "MD5": "a3710d72c75c24b8235142061f9e217c",
+            "path": "mods/lradd-1.20.1-0.3.0.jar"
+          }
+        },
+        {
+          "id": "lrtactical-1.20.1-0.3.0.jar",
+          "name": "lrtactical-1.20.1-0.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5193935,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/lrtactical-1.20.1-0.3.0.jar",
+            "MD5": "73f94347bbc9050c0a28cb9aff3c3d26",
+            "path": "mods/lrtactical-1.20.1-0.3.0.jar"
+          }
+        },
+        {
+          "id": "L_Enders_Cataclysm-3.16.jar",
+          "name": "L_Enders_Cataclysm-3.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 127993805,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/L_Enders_Cataclysm-3.16.jar",
+            "MD5": "de747fb259b761f7b872654516fa27b3",
+            "path": "mods/L_Enders_Cataclysm-3.16.jar"
+          }
+        },
+        {
+          "id": "Mantle-1.20.1-1.11.79.jar",
+          "name": "Mantle-1.20.1-1.11.79.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1480444,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Mantle-1.20.1-1.11.79.jar",
+            "MD5": "19cf5725471882f2f65182e70f9c98ef",
+            "path": "mods/Mantle-1.20.1-1.11.79.jar"
+          }
+        },
+        {
+          "id": "mcef-forge-2.1.6-1.20.1.jar",
+          "name": "mcef-forge-2.1.6-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 218417,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/mcef-forge-2.1.6-1.20.1.jar",
+            "MD5": "341d01e98e3835162cf8eb439e20dbfe",
+            "path": "mods/mcef-forge-2.1.6-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Mekanism-1.20.1-10.4.16.80.jar",
+          "name": "Mekanism-1.20.1-10.4.16.80.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12558456,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Mekanism-1.20.1-10.4.16.80.jar",
+            "MD5": "3791fb5cf1e8b6f583d3a00d5115d1ee",
+            "path": "mods/Mekanism-1.20.1-10.4.16.80.jar"
+          }
+        },
+        {
+          "id": "mekanismcovers-1.3-BETA+1.20.jar",
+          "name": "mekanismcovers-1.3-BETA+1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 122341,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/mekanismcovers-1.3-BETA+1.20.jar",
+            "MD5": "e0a0a3266ad772d7aa2621f21c8d10c7",
+            "path": "mods/mekanismcovers-1.3-BETA+1.20.jar"
+          }
+        },
+        {
+          "id": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+          "name": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1054586,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MekanismGenerators-1.20.1-10.4.16.80.jar",
+            "MD5": "5ecedb27379b4543b28c0860f9c2fbf4",
+            "path": "mods/MekanismGenerators-1.20.1-10.4.16.80.jar"
+          }
+        },
+        {
+          "id": "MekanismTools-1.20.1-10.4.16.80.jar",
+          "name": "MekanismTools-1.20.1-10.4.16.80.jar",
+          "type": "File",
+          "artifact": {
+            "size": 517999,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MekanismTools-1.20.1-10.4.16.80.jar",
+            "MD5": "5fbc84c81cff26ba2d49c8ac7647f9e4",
+            "path": "mods/MekanismTools-1.20.1-10.4.16.80.jar"
+          }
+        },
+        {
+          "id": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "name": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 37178,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6",
+            "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+          }
+        },
+        {
+          "id": "MOAdecor ELECTRONICS 1.20.1.A.jar",
+          "name": "MOAdecor ELECTRONICS 1.20.1.A.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1140709,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MOAdecor%20ELECTRONICS%201.20.1.A.jar",
+            "MD5": "a8a4df049f11d065782780761d1cc627",
+            "path": "mods/MOAdecor ELECTRONICS 1.20.1.A.jar"
+          }
+        },
+        {
+          "id": "MOAdecor LIGHTS 1.20.1.jar",
+          "name": "MOAdecor LIGHTS 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1026120,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MOAdecor%20LIGHTS%201.20.1.jar",
+            "MD5": "94d22373aad3472901ae93d1101c0647",
+            "path": "mods/MOAdecor LIGHTS 1.20.1.jar"
+          }
+        },
+        {
+          "id": "MOAdecor SCIENCE 1.20.1.jar",
+          "name": "MOAdecor SCIENCE 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1040771,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MOAdecor%20SCIENCE%201.20.1.jar",
+            "MD5": "b547bafe316aeac0ad11ad91850931d5",
+            "path": "mods/MOAdecor SCIENCE 1.20.1.jar"
+          }
+        },
+        {
+          "id": "modernfix-forge-5.25.1+mc1.20.1.jar",
+          "name": "modernfix-forge-5.25.1+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 895267,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/modernfix-forge-5.25.1+mc1.20.1.jar",
+            "MD5": "3e7c495f3e3b9057c5e6227119e5b614",
+            "path": "mods/modernfix-forge-5.25.1+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "moonlight-1.20-2.16.16-forge.jar",
+          "name": "moonlight-1.20-2.16.16-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1333455,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/moonlight-1.20-2.16.16-forge.jar",
+            "MD5": "cc2852f794f2a3bb835c6507d8276dc4",
+            "path": "mods/moonlight-1.20-2.16.16-forge.jar"
+          }
+        },
+        {
+          "id": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+          "name": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76237,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2",
+            "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+          }
+        },
+        {
+          "id": "MTS Official Pack-1.20.1-V28.2.jar",
+          "name": "MTS Official Pack-1.20.1-V28.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 89590985,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/MTS%20Official%20Pack-1.20.1-V28.2.jar",
+            "MD5": "5e6b81c240b4f8f7e4bd30be4065b596",
+            "path": "mods/MTS Official Pack-1.20.1-V28.2.jar"
+          }
+        },
+        {
+          "id": "mutil-1.20.1-6.2.0.jar",
+          "name": "mutil-1.20.1-6.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 100060,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/mutil-1.20.1-6.2.0.jar",
+            "MD5": "7fe61d6a7730b1b3afa4cd2d5060c237",
+            "path": "mods/mutil-1.20.1-6.2.0.jar"
+          }
+        },
+        {
+          "id": "naturalist-5.0pre5+forge-1.20.1.jar",
+          "name": "naturalist-5.0pre5+forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3807415,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/naturalist-5.0pre5+forge-1.20.1.jar",
+            "MD5": "282a1f44a0c4a8f7082921eef6ed3a9d",
+            "path": "mods/naturalist-5.0pre5+forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+          "name": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 215119,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
+            "MD5": "7c05072645b1aae529b1e38c74b87c4c",
+            "path": "mods/NaturesCompass-1.20.1-1.11.2-forge.jar"
+          }
+        },
+        {
+          "id": "nightlights-1.20.1-1.1.jar",
+          "name": "nightlights-1.20.1-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 377881,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/nightlights-1.20.1-1.1.jar",
+            "MD5": "ef8bd4be30a00b9b9c6a9280886d5938",
+            "path": "mods/nightlights-1.20.1-1.1.jar"
+          }
+        },
+        {
+          "id": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+          "name": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 272740,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+            "MD5": "3153d1e860c6fefe6dac26efdb5c40c6",
+            "path": "mods/NoChatReports-FORGE-1.20.1-v2.2.2.jar"
+          }
+        },
+        {
+          "id": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+          "name": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21667,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Not%20Enough%20Recipe%20Book-FORGE-0.4.1+1.20.1.jar",
+            "MD5": "fa8240906f36683f66de537b34587643",
+            "path": "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "obscure_api-18.jar",
+          "name": "obscure_api-18.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1128392,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/obscure_api-18.jar",
+            "MD5": "2ebabd6dd8f9e8dad64b0c5cbc187f8d",
+            "path": "mods/obscure_api-18.jar"
+          }
+        },
+        {
+          "id": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+          "name": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 424035,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c",
+            "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "oculus-mc1.20.1-1.8.0.jar",
+          "name": "oculus-mc1.20.1-1.8.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2851119,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572",
+            "path": "mods/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
+          "id": "ok_zoomer-forge-5.4.0-beta.8.jar",
+          "name": "ok_zoomer-forge-5.4.0-beta.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 520782,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ok_zoomer-forge-5.4.0-beta.8.jar",
+            "MD5": "b7186e5d53962614bc6f1b540715c7ee",
+            "path": "mods/ok_zoomer-forge-5.4.0-beta.8.jar"
+          }
+        },
+        {
+          "id": "OverflowingBars-v8.0.1-1.20.1-Forge.jar",
+          "name": "OverflowingBars-v8.0.1-1.20.1-Forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 73689,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/OverflowingBars-v8.0.1-1.20.1-Forge.jar",
+            "MD5": "6152710c2ddbd371b91eb7c44aee6167",
+            "path": "mods/OverflowingBars-v8.0.1-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+          "name": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+          "type": "File",
+          "artifact": {
+            "size": 864398,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+            "MD5": "019a3540059282663ce2ed634dbfd09c",
+            "path": "mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"
+          }
+        },
+        {
+          "id": "Paraglider-forge-20.1.3.jar",
+          "name": "Paraglider-forge-20.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 589055,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Paraglider-forge-20.1.3.jar",
+            "MD5": "35eba1f897eb09eaff91579d65696565",
+            "path": "mods/Paraglider-forge-20.1.3.jar"
+          }
+        },
+        {
+          "id": "ParCool-1.20.1-3.4.2.0.jar",
+          "name": "ParCool-1.20.1-3.4.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1139006,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/ParCool-1.20.1-3.4.2.0.jar",
+            "MD5": "65ad47e34e1d3a8920e4795361122bee",
+            "path": "mods/ParCool-1.20.1-3.4.2.0.jar"
+          }
+        },
+        {
+          "id": "particlerain-4.0.0-beta.3+1.20.1-forge.jar",
+          "name": "particlerain-4.0.0-beta.3+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 774930,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/particlerain-4.0.0-beta.3+1.20.1-forge.jar",
+            "MD5": "d7185cd6133b862c9b00161df6b6a6d9",
+            "path": "mods/particlerain-4.0.0-beta.3+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "pipez-forge-1.20.1-1.2.26.jar",
+          "name": "pipez-forge-1.20.1-1.2.26.jar",
+          "type": "File",
+          "artifact": {
+            "size": 431615,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/pipez-forge-1.20.1-1.2.26.jar",
+            "MD5": "1af664d7782630bebc8358a72fea4779",
+            "path": "mods/pipez-forge-1.20.1-1.2.26.jar"
+          }
+        },
+        {
+          "id": "Placebo-1.20.1-8.6.3.jar",
+          "name": "Placebo-1.20.1-8.6.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 282474,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5",
+            "path": "mods/Placebo-1.20.1-8.6.3.jar"
+          }
+        },
+        {
+          "id": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+          "name": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 181437,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01",
+            "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
+          }
+        },
+        {
+          "id": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "name": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5298162,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "MD5": "e07fc42680a0163c99c21cfa9afb9816",
+            "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "plushie_buddies-0.1.7-1.20.1.jar",
+          "name": "plushie_buddies-0.1.7-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 411299,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/plushie_buddies-0.1.7-1.20.1.jar",
+            "MD5": "eb0ec09ddcbe84fa64961a3027f71eab",
+            "path": "mods/plushie_buddies-0.1.7-1.20.1.jar"
+          }
+        },
+        {
+          "id": "projectvibrantjourneys-1.20.1-6.2.0.jar",
+          "name": "projectvibrantjourneys-1.20.1-6.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 731678,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/projectvibrantjourneys-1.20.1-6.2.0.jar",
+            "MD5": "c642dee29481c6bac80c0d9d68df5c1a",
+            "path": "mods/projectvibrantjourneys-1.20.1-6.2.0.jar"
+          }
+        },
+        {
+          "id": "Psychadelic-Chemistry_1.20.1-1.4.5.jar",
+          "name": "Psychadelic-Chemistry_1.20.1-1.4.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69276668,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Psychadelic-Chemistry_1.20.1-1.4.5.jar",
+            "MD5": "6e1464252205887bc21c634b1fc84c83",
+            "path": "mods/Psychadelic-Chemistry_1.20.1-1.4.5.jar"
+          }
+        },
+        {
+          "id": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+          "name": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1342987,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68",
+            "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "Quark-4.0-462.jar",
+          "name": "Quark-4.0-462.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14935230,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Quark-4.0-462.jar",
+            "MD5": "6eef0d0ac52df0c239cb443abc137f3d",
+            "path": "mods/Quark-4.0-462.jar"
+          }
+        },
+        {
+          "id": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+          "name": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6689588,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+            "MD5": "53bf35be2dc746e3fd7805a4e63a46a6",
+            "path": "mods/refurbished_furniture-forge-1.20.1-1.0.20.jar"
+          }
+        },
+        {
+          "id": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+          "name": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5726781,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/RegionsUnexploredForge-0.5.6+1.20.1.jar",
+            "MD5": "82c3073f606044e7b56d432d324ca480",
+            "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar"
+          }
+        },
+        {
+          "id": "reliquary-1.20.1-2.0.55.1309.jar",
+          "name": "reliquary-1.20.1-2.0.55.1309.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2204030,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/reliquary-1.20.1-2.0.55.1309.jar",
+            "MD5": "144e4a1460249ed038e82105a61dfd59",
+            "path": "mods/reliquary-1.20.1-2.0.55.1309.jar"
+          }
+        },
+        {
+          "id": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+          "name": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 136923,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+            "MD5": "947463b04c043937cd24506842f737a3",
+            "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+          }
+        },
+        {
+          "id": "resourcefullib-forge-1.20.1-2.1.29.jar",
+          "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
+          "type": "File",
+          "artifact": {
+            "size": 432753,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0",
+            "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
+          }
+        },
+        {
+          "id": "rpa-1.6.1-forge-1.20.1.jar",
+          "name": "rpa-1.6.1-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4574333,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/rpa-1.6.1-forge-1.20.1.jar",
+            "MD5": "8d62be9d34400752b74336196568fb26",
+            "path": "mods/rpa-1.6.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+          "name": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+          "type": "File",
+          "artifact": {
+            "size": 568608,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+            "MD5": "a96fb0a07b75eb07b200e8f9c0dfb9f4",
+            "path": "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar"
+          }
+        },
+        {
+          "id": "RUExpansion-1.0.1+1.20.1.jar",
+          "name": "RUExpansion-1.0.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 567739,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/RUExpansion-1.0.1+1.20.1.jar",
+            "MD5": "901d7307ddbc24380de9454150199312",
+            "path": "mods/RUExpansion-1.0.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "Runelic-Forge-1.20.1-18.0.2.jar",
+          "name": "Runelic-Forge-1.20.1-18.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63314,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Runelic-Forge-1.20.1-18.0.2.jar",
+            "MD5": "f15a392b70c6ca0100e2a51660027ca4",
+            "path": "mods/Runelic-Forge-1.20.1-18.0.2.jar"
+          }
+        },
+        {
+          "id": "screenshot-to-clipboard-1.0.9-forge.jar",
+          "name": "screenshot-to-clipboard-1.0.9-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16472,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/screenshot-to-clipboard-1.0.9-forge.jar",
+            "MD5": "8d20d50d2bd041ecda38d2f1a1949b90",
+            "path": "mods/screenshot-to-clipboard-1.0.9-forge.jar"
+          }
+        },
+        {
+          "id": "screenshot_viewer-1.3.2-forge-mc1.20.1.jar",
+          "name": "screenshot_viewer-1.3.2-forge-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 113495,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/screenshot_viewer-1.3.2-forge-mc1.20.1.jar",
+            "MD5": "e9d81c4744cfd8d00d72f03c55d90075",
+            "path": "mods/screenshot_viewer-1.3.2-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "seamless-2.2.2-forge-1.20.1.jar",
+          "name": "seamless-2.2.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 666413,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/seamless-2.2.2-forge-1.20.1.jar",
+            "MD5": "9a5f79e7d9cac7b3155bec9fd57c462f",
+            "path": "mods/seamless-2.2.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Searchables-forge-1.20.1-1.0.3.jar",
+          "name": "Searchables-forge-1.20.1-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77732,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2",
+            "path": "mods/Searchables-forge-1.20.1-1.0.3.jar"
+          }
+        },
+        {
+          "id": "servercore-forge-1.5.2+1.20.1.jar",
+          "name": "servercore-forge-1.5.2+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1508496,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/servercore-forge-1.5.2+1.20.1.jar",
+            "MD5": "7ba2ff373f4f1a44a01513c49a2e8b65",
+            "path": "mods/servercore-forge-1.5.2+1.20.1.jar"
+          }
+        },
+        {
+          "id": "shetiphiancore-forge-1.20.1-1.5.jar",
+          "name": "shetiphiancore-forge-1.20.1-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 359990,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/shetiphiancore-forge-1.20.1-1.5.jar",
+            "MD5": "cb09b8a792da7c4d8bf4c98612734730",
+            "path": "mods/shetiphiancore-forge-1.20.1-1.5.jar"
+          }
+        },
+        {
+          "id": "silent-gear-1.20.1-3.6.7.jar",
+          "name": "silent-gear-1.20.1-3.6.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2747490,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/silent-gear-1.20.1-3.6.7.jar",
+            "MD5": "ad1c965e6ede3e866d9b9911f0a843f1",
+            "path": "mods/silent-gear-1.20.1-3.6.7.jar"
+          }
+        },
+        {
+          "id": "silent-lib-1.20.1-8.0.0.jar",
+          "name": "silent-lib-1.20.1-8.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 225949,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/silent-lib-1.20.1-8.0.0.jar",
+            "MD5": "e12dabd49a8f5155284950326909635f",
+            "path": "mods/silent-lib-1.20.1-8.0.0.jar"
+          }
+        },
+        {
+          "id": "SilentCompat-forge-1.20.1-1.4.0.jar",
+          "name": "SilentCompat-forge-1.20.1-1.4.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 606036,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/SilentCompat-forge-1.20.1-1.4.0.jar",
+            "MD5": "c3c6e4d51dad4322d16d526033e89a10",
+            "path": "mods/SilentCompat-forge-1.20.1-1.4.0.jar"
+          }
+        },
+        {
+          "id": "silents-gems-1.20.1-4.7.0.jar",
+          "name": "silents-gems-1.20.1-4.7.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 999005,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/silents-gems-1.20.1-4.7.0.jar",
+            "MD5": "c774ec2993f1adc492b4c26b306427e3",
+            "path": "mods/silents-gems-1.20.1-4.7.0.jar"
+          }
+        },
+        {
+          "id": "simplehats-forge-1.20.1-0.3.2.jar",
+          "name": "simplehats-forge-1.20.1-0.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1413531,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/simplehats-forge-1.20.1-0.3.2.jar",
+            "MD5": "5617686a811a3c1f6523166b7af7f0a8",
+            "path": "mods/simplehats-forge-1.20.1-0.3.2.jar"
+          }
+        },
+        {
+          "id": "simplyswords-forge-1.56.0-1.20.1.jar",
+          "name": "simplyswords-forge-1.56.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15202091,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/simplyswords-forge-1.56.0-1.20.1.jar",
+            "MD5": "da155dc9ccd825f2a824532488675d85",
+            "path": "mods/simplyswords-forge-1.56.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "skin_changer-forge-1.20.1-0.6.6.jar",
+          "name": "skin_changer-forge-1.20.1-0.6.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 60904,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/skin_changer-forge-1.20.1-0.6.6.jar",
+            "MD5": "62c922b3219f6d14db704a53d8fea63d",
+            "path": "mods/skin_changer-forge-1.20.1-0.6.6.jar"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
+          "name": "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
+          "type": "File",
+          "artifact": {
+            "size": 973366,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
+            "MD5": "a2d81606c31421d45aa3518e5471f154",
+            "path": "mods/sophisticatedbackpacks-1.20.1-3.24.12.1411.jar"
+          }
+        },
+        {
+          "id": "sophisticatedcore-1.20.1-1.2.107.1240.jar",
+          "name": "sophisticatedcore-1.20.1-1.2.107.1240.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1438965,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/sophisticatedcore-1.20.1-1.2.107.1240.jar",
+            "MD5": "fbc7db24a060b7cbe715013b071d604f",
+            "path": "mods/sophisticatedcore-1.20.1-1.2.107.1240.jar"
+          }
+        },
+        {
+          "id": "sophisticatedstorage-1.20.1-1.4.15.1362.jar",
+          "name": "sophisticatedstorage-1.20.1-1.4.15.1362.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1672498,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/sophisticatedstorage-1.20.1-1.4.15.1362.jar",
+            "MD5": "15ab6fdbf6bf4a1d35de4ebca05f23b1",
+            "path": "mods/sophisticatedstorage-1.20.1-1.4.15.1362.jar"
+          }
+        },
+        {
+          "id": "sophisticatedstoragecreateintegration-1.20.1-0.1.14.55.jar",
+          "name": "sophisticatedstoragecreateintegration-1.20.1-0.1.14.55.jar",
+          "type": "File",
+          "artifact": {
+            "size": 127363,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/sophisticatedstoragecreateintegration-1.20.1-0.1.14.55.jar",
+            "MD5": "d603bc42c980989385b8fa14ccb34e0e",
+            "path": "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.14.55.jar"
+          }
+        },
+        {
+          "id": "spark-1.10.53-forge.jar",
+          "name": "spark-1.10.53-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3114590,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/spark-1.10.53-forge.jar",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98",
+            "path": "mods/spark-1.10.53-forge.jar"
+          }
+        },
+        {
+          "id": "spiffyhud_forge_3.1.0_MC_1.20.1.jar",
+          "name": "spiffyhud_forge_3.1.0_MC_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 832359,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/spiffyhud_forge_3.1.0_MC_1.20.1.jar",
+            "MD5": "b33cb50ac325a45a2f8dbe478d7a7c7e",
+            "path": "mods/spiffyhud_forge_3.1.0_MC_1.20.1.jar"
+          }
+        },
+        {
+          "id": "starcatcher-1.3.4-FORGE-1.20.1.jar",
+          "name": "starcatcher-1.3.4-FORGE-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 964749,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/starcatcher-1.3.4-FORGE-1.20.1.jar",
+            "MD5": "a9a93ff2bb993cd017954be4c7d875e5",
+            "path": "mods/starcatcher-1.3.4-FORGE-1.20.1.jar"
+          }
+        },
+        {
+          "id": "structure_gel-1.20.1-2.16.2.jar",
+          "name": "structure_gel-1.20.1-2.16.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 966028,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/structure_gel-1.20.1-2.16.2.jar",
+            "MD5": "a4e07a1d6ff69901f70b014683f04498",
+            "path": "mods/structure_gel-1.20.1-2.16.2.jar"
+          }
+        },
+        {
+          "id": "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+          "name": "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 515362,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c",
+            "path": "mods/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "supplementaries-1.20-3.1.41.jar",
+          "name": "supplementaries-1.20-3.1.41.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13650491,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/supplementaries-1.20-3.1.41.jar",
+            "MD5": "b5dfc4f5ced41e7a5e4e2d175c6a6bb3",
+            "path": "mods/supplementaries-1.20-3.1.41.jar"
+          }
+        },
+        {
+          "id": "survival_instinct-1.0.1-forge-1.20.1.jar",
+          "name": "survival_instinct-1.0.1-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1691940,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/survival_instinct-1.0.1-forge-1.20.1.jar",
+            "MD5": "54a68ad552f1f5b03dc9b2a6f1b3840d",
+            "path": "mods/survival_instinct-1.0.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "tacz-1.20.1-1.1.6-hotfix.jar",
+          "name": "tacz-1.20.1-1.1.6-hotfix.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47826468,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/tacz-1.20.1-1.1.6-hotfix.jar",
+            "MD5": "51636447584a75f8d2db2fb930d110b1",
+            "path": "mods/tacz-1.20.1-1.1.6-hotfix.jar"
+          }
+        },
+        {
+          "id": "taczxgunlightsaddon-1.20.1-1.0.7.jar",
+          "name": "taczxgunlightsaddon-1.20.1-1.0.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39464,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/taczxgunlightsaddon-1.20.1-1.0.7.jar",
+            "MD5": "4c0ea0dc537a0346b38e99efa3cc5ead",
+            "path": "mods/taczxgunlightsaddon-1.20.1-1.0.7.jar"
+          }
+        },
+        {
+          "id": "TConstruct-1.20.1-3.10.2.92.jar",
+          "name": "TConstruct-1.20.1-3.10.2.92.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19792115,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/TConstruct-1.20.1-3.10.2.92.jar",
+            "MD5": "f509c2dc7895504a1ccd7860a2fb7a47",
+            "path": "mods/TConstruct-1.20.1-3.10.2.92.jar"
+          }
+        },
+        {
+          "id": "tenshilib-1.20.1-1.7.6-forge.jar",
+          "name": "tenshilib-1.20.1-1.7.6-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 465737,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/tenshilib-1.20.1-1.7.6-forge.jar",
+            "MD5": "122615fbf09e2af75d94d6cb3c305093",
+            "path": "mods/tenshilib-1.20.1-1.7.6-forge.jar"
+          }
+        },
+        {
+          "id": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+          "name": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 107532,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267",
+            "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+          }
+        },
+        {
+          "id": "tetra-1.20.1-6.11.0.jar",
+          "name": "tetra-1.20.1-6.11.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3971792,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/tetra-1.20.1-6.11.0.jar",
+            "MD5": "dab01eb0a3b76d1ffaa2f3180134e005",
+            "path": "mods/tetra-1.20.1-6.11.0.jar"
+          }
+        },
+        {
+          "id": "titanium-1.20.1-3.8.32.jar",
+          "name": "titanium-1.20.1-3.8.32.jar",
+          "type": "File",
+          "artifact": {
+            "size": 622068,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/titanium-1.20.1-3.8.32.jar",
+            "MD5": "75baf7f67163a1da0fbb6a8bc98fa012",
+            "path": "mods/titanium-1.20.1-3.8.32.jar"
+          }
+        },
+        {
+          "id": "torchmaster-20.1.9.jar",
+          "name": "torchmaster-20.1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 119348,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/torchmaster-20.1.9.jar",
+            "MD5": "5ccfbdd3ad8436df3b99967e746ac2cd",
+            "path": "mods/torchmaster-20.1.9.jar"
+          }
+        },
+        {
+          "id": "traveloptics-5.7.0-1.20.1.jar",
+          "name": "traveloptics-5.7.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 27134559,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/traveloptics-5.7.0-1.20.1.jar",
+            "MD5": "44c414283a64937643c55b8d4ea6fd60",
+            "path": "mods/traveloptics-5.7.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Twigs-1.20.1-3.1.0.jar",
+          "name": "Twigs-1.20.1-3.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2766476,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Twigs-1.20.1-3.1.0.jar",
+            "MD5": "726e5fbe4661a26c6dcfb24e54607bad",
+            "path": "mods/Twigs-1.20.1-3.1.0.jar"
+          }
+        },
+        {
+          "id": "UniLib-1.2.0+1.20.1-forge.jar",
+          "name": "UniLib-1.2.0+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1631104,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/UniLib-1.2.0+1.20.1-forge.jar",
+            "MD5": "b45a2349802946baeb3f398142b29c08",
+            "path": "mods/UniLib-1.2.0+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "unseen_world-0.4.1.jar",
+          "name": "unseen_world-0.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4623497,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/unseen_world-0.4.1.jar",
+            "MD5": "76979be88af8dedcc15a5e75e919130d",
+            "path": "mods/unseen_world-0.4.1.jar"
+          }
+        },
+        {
+          "id": "VampiresNeedUmbrellas-1.20.1-1.0.1.jar",
+          "name": "VampiresNeedUmbrellas-1.20.1-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 250266,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/VampiresNeedUmbrellas-1.20.1-1.0.1.jar",
+            "MD5": "34e6105741a2a521c5dc9caaf0b34130",
+            "path": "mods/VampiresNeedUmbrellas-1.20.1-1.0.1.jar"
+          }
+        },
+        {
+          "id": "vampiricageing-1.20.1-1.3.26.jar",
+          "name": "vampiricageing-1.20.1-1.3.26.jar",
+          "type": "File",
+          "artifact": {
+            "size": 174013,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/vampiricageing-1.20.1-1.3.26.jar",
+            "MD5": "babe8bb7f03981963c9bc6044a164cda",
+            "path": "mods/vampiricageing-1.20.1-1.3.26.jar"
+          }
+        },
+        {
+          "id": "Vampirism-1.20.1-1.10.13.jar",
+          "name": "Vampirism-1.20.1-1.10.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12307445,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Vampirism-1.20.1-1.10.13.jar",
+            "MD5": "7e71a6723a8db45292e714172cec0eb7",
+            "path": "mods/Vampirism-1.20.1-1.10.13.jar"
+          }
+        },
+        {
+          "id": "Vanishmod-1.20.1-1.1.20.jar",
+          "name": "Vanishmod-1.20.1-1.1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 74019,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Vanishmod-1.20.1-1.1.20.jar",
+            "MD5": "1f6c3cc5328b51b8b9f21945a6a01cc2",
+            "path": "mods/Vanishmod-1.20.1-1.1.20.jar"
+          }
+        },
+        {
+          "id": "VibrativeVoice-forge-1.20.1-1.2.0.jar",
+          "name": "VibrativeVoice-forge-1.20.1-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 46289,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/VibrativeVoice-forge-1.20.1-1.2.0.jar",
+            "MD5": "057f7b42013836db8e7682d77eeeb634",
+            "path": "mods/VibrativeVoice-forge-1.20.1-1.2.0.jar"
+          }
+        },
+        {
+          "id": "voicechat-forge-1.20.1-2.6.6.jar",
+          "name": "voicechat-forge-1.20.1-2.6.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4889296,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/voicechat-forge-1.20.1-2.6.6.jar",
+            "MD5": "11832e7cf51d8b058ddde5811188835c",
+            "path": "mods/voicechat-forge-1.20.1-2.6.6.jar"
+          }
+        },
+        {
+          "id": "walkers-1.2-forge-1.20.1.jar",
+          "name": "walkers-1.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 296550,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/walkers-1.2-forge-1.20.1.jar",
+            "MD5": "c6859c6e54ff714081bfeae1f26c3635",
+            "path": "mods/walkers-1.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "walkers-5.7.jar",
+          "name": "walkers-5.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 509205,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/walkers-5.7.jar",
+            "MD5": "5e03e8aa74917e414dbfe684dd751205",
+            "path": "mods/walkers-5.7.jar"
+          }
+        },
+        {
+          "id": "walkietalkie-forge-1.20.1-1.3.0.jar",
+          "name": "walkietalkie-forge-1.20.1-1.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 169451,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/walkietalkie-forge-1.20.1-1.3.0.jar",
+            "MD5": "232d0951cad33c7cd8a009d09accff1c",
+            "path": "mods/walkietalkie-forge-1.20.1-1.3.0.jar"
+          }
+        },
+        {
+          "id": "waterframes-FORGE-mc1.20.1-v2.1.22.jar",
+          "name": "waterframes-FORGE-mc1.20.1-v2.1.22.jar",
+          "type": "File",
+          "artifact": {
+            "size": 255481,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/waterframes-FORGE-mc1.20.1-v2.1.22.jar",
+            "MD5": "595a2467900abcdf00b3059c56fc0d0f",
+            "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.22.jar"
+          }
+        },
+        {
+          "id": "watermedia-2.1.36.jar",
+          "name": "watermedia-2.1.36.jar",
+          "type": "File",
+          "artifact": {
+            "size": 37858040,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/watermedia-2.1.36.jar",
+            "MD5": "4b517fafc374653b97bc1a2751944b67",
+            "path": "mods/watermedia-2.1.36.jar"
+          }
+        },
+        {
+          "id": "watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+          "name": "watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+          "type": "File",
+          "artifact": {
+            "size": 82079,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+            "MD5": "c934bcbabeb242ce7da79e3f16d1406c",
+            "path": "mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
+          }
+        },
+        {
+          "id": "waystones-forge-1.20.1-14.1.17.jar",
+          "name": "waystones-forge-1.20.1-14.1.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 518286,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/waystones-forge-1.20.1-14.1.17.jar",
+            "MD5": "c0991381d238b6e1ba9526132b8a9a7c",
+            "path": "mods/waystones-forge-1.20.1-14.1.17.jar"
+          }
+        },
+        {
+          "id": "weaponmaster-1.4.3-1.20.1.jar",
+          "name": "weaponmaster-1.4.3-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3027302,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/weaponmaster-1.4.3-1.20.1.jar",
+            "MD5": "2e2023c2abb7f009377f8a6921873b56",
+            "path": "mods/weaponmaster-1.4.3-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Werewolves-1.20.1-2.0.2.7.jar",
+          "name": "Werewolves-1.20.1-2.0.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2306751,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Werewolves-1.20.1-2.0.2.7.jar",
+            "MD5": "c9013ea67b5c01b3030a8553d611f215",
+            "path": "mods/Werewolves-1.20.1-2.0.2.7.jar"
+          }
+        },
+        {
+          "id": "witherstormmod-1.20.1-4.2.1-all.jar",
+          "name": "witherstormmod-1.20.1-4.2.1-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47342265,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/witherstormmod-1.20.1-4.2.1-all.jar",
+            "MD5": "401ef2f3270a67caf03a6c30610063e3",
+            "path": "mods/witherstormmod-1.20.1-4.2.1-all.jar"
+          }
+        },
+        {
+          "id": "worldedit-mod-7.2.15.jar",
+          "name": "worldedit-mod-7.2.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5825402,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "path": "mods/worldedit-mod-7.2.15.jar"
+          }
+        },
+        {
+          "id": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+          "name": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1105891,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479",
+            "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "YungsApi-1.20-Forge-4.0.6.jar",
+          "name": "YungsApi-1.20-Forge-4.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 370524,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c",
+            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
+          }
+        },
+        {
+          "id": "Zeta-1.0-30.jar",
+          "name": "Zeta-1.0-30.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1006574,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/Zeta-1.0-30.jar",
+            "MD5": "9fa915bd7e2c64217223b6a98ab5dc47",
+            "path": "mods/Zeta-1.0-30.jar"
+          }
+        },
+        {
+          "id": "[1.20-1.20.1] Comics Bubbles Chat-1.3.4.jar",
+          "name": "[1.20-1.20.1] Comics Bubbles Chat-1.3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 59047,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/[1.20-1.20.1]%20Comics%20Bubbles%20Chat-1.3.4.jar",
+            "MD5": "240cd0f58980f2af4e1c2a794e8b537f",
+            "path": "mods/[1.20-1.20.1] Comics Bubbles Chat-1.3.4.jar"
+          }
+        },
+        {
+          "id": "[1.20.1] SecurityCraft v1.10.1.jar",
+          "name": "[1.20.1] SecurityCraft v1.10.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4769715,
+            "url": "http://seusite.com/servers/meuserver-1.20.1/files/mods/[1.20.1]%20SecurityCraft%20v1.10.1.jar",
+            "MD5": "9299326e13fa4f10c377ea6b26c771f9",
+            "path": "mods/[1.20.1] SecurityCraft v1.10.1.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
