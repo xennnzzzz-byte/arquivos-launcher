@@ -680,7 +680,7 @@
           "type": "File",
           "artifact": {
             "size": 194329783,
-            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/BeautyDriveHome2.0(1.16-1.20)cut.jar",
+            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/BeautyDrive.jar",
             "MD5": "0ba4f62b6ddd237a5e4bebf2534eb188",
             "path": "mods/BeautyDriveHome2.0(1.16-1.20)cut.jar"
           }
@@ -2121,7 +2121,7 @@
           "type": "File",
           "artifact": {
             "size": 127993805,
-            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/L_Enders_Cataclysm-3.16.jar",
+            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/Cataclysm.jar",
             "MD5": "de747fb259b761f7b872654516fa27b3",
             "path": "mods/L_Enders_Cataclysm-3.16.jar"
           }
