@@ -1,0 +1,73 @@
+
+[general]
+	#Bayou Config
+	#The weight of Piraputanga in vanilla's spawn rate. Default is 4
+	#Range: 0 ~ 300
+	"Piraputanga Spawn Weight" = 4
+	#The weight of Capybara in vanilla's spawn rate. Default is 7
+	#Range: 0 ~ 300
+	"Capybara Spawn Weight" = 7
+	#The weight of Brocket Deer in vanilla's spawn rate. Default is 4
+	#Range: 0 ~ 300
+	"Brocket Deer Spawn Weight" = 4
+	#The weight of Tegu in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Tegu  Spawn Weight" = 2
+	#The weight of Iguana in vanilla's spawn rate. Default is 3
+	#Range: 0 ~ 300
+	"Iguana Spawn Weight" = 3
+	#The weight of Arrau Turtle in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Arrau Turtle Spawn Weight" = 2
+	#The weight of Boto in vanilla's spawn rate. Default is 1
+	#Range: 0 ~ 300
+	"Boto Spawn Weight" = 1
+	#The weight of Arraia in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Arraia Spawn Weight" = 2
+	#The weight of Poraque in vanilla's spawn rate. Default is 1
+	#Range: 0 ~ 400
+	"Poraque Spawn Weight" = 1
+	#The weight of Gaviao in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Gaviao Spawn Weight" = 2
+	#The weight of Ocelot in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Ocelot Spawn Weight" = 2
+	#The weight of Manatee in vanilla's spawn rate. Default is 4
+	#Range: 0 ~ 400
+	"Manatee Spawn Weight" = 4
+	#The weight of Mata_Mata in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Mata_Mata Spawn Weight" = 2
+	#The weight of Tambaqui in vanilla's spawn rate. Default is 4
+	#Range: 0 ~ 400
+	"Tambaqui Spawn Weight" = 4
+	#The weight of Dwarf Caiman in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Dwarf Caiman Spawn Weight" = 2
+	#The weight of Payara in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Payara Spawn Weight" = 2
+	#The weight of Giant Otter in vanilla's spawn rate. Default is 5
+	#Range: 0 ~ 400
+	"Giant Otter Spawn Weight" = 5
+	#The weight of Arowana in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Arowana Spawn Weight" = 2
+	#The weight of Oscar in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Oscar Spawn Weight" = 2
+	#The weight of Tucunaré in vanilla's spawn rate. Default is 1
+	#Range: 0 ~ 400
+	"Tucunaré Spawn Weight" = 1
+	#The weight of Tayara in vanilla's spawn rate. Default is 2
+	#Range: 0 ~ 400
+	"Tayara Spawn Weight" = 2
+	#The weight of Coati in vanilla's spawn rate. Default is 5
+	#Range: 0 ~ 400
+	"Coati Spawn Weight" = 5
+	#The weight of Capped Heron in vanilla's spawn rate. Default is 3
+	#Range: 0 ~ 400
+	"Capped Heron Spawn Weight" = 3
+

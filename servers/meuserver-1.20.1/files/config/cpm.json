@@ -1,0 +1,40 @@
+{
+  "editorLastVersion": "0.6.25a",
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "off"
+  },
+  "blockedList": {},
+  "serverSettings": {},
+  "editorUVAreaAlpha": 0.8,
+  "editorSelectMouseButton": 0.0,
+  "wikiOfflineMode": true,
+  "titleScreenButton": true,
+  "friendSettings": {
+    "animatedTex": false
+  },
+  "keybinds": {},
+  "editorDragMouseButton": -1.0,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
+  "safetyProfiles": {},
+  "editorRecentProjects": [
+    "C:\\Users\\pedro\\Downloads\\Fantasma - BASEOGClaraComissions.cpmproject",
+    "C:\\Users\\pedro\\Downloads\\fantasma_cat.cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\fantasma_catespacial.cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\fantasma_bobo_da_corte.cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\fantasma sangrento (1).cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\corujona.cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\gato gordo.cpmproject",
+    "C:\\Users\\Pedro\\Downloads\\ovo leão.cpmproject"
+  ],
+  "editorScale": 3.0,
+  "experimentalExport0614": true,
+  "selectedModel": "calvixce.cpmmodel",
+  "keybindPerModel": {},
+  "modelProperties": {
+    "": {
+      "values": {}
+    }
+  }
+}

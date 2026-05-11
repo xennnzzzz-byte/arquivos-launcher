@@ -1,0 +1,25 @@
+
+[AirCombo]
+	#Enables basic crit bounce
+	"Crit Base" = true
+	#Enables the second air bounce(Beta)
+	Bounce2 = false
+	#Enables the Anime-like combo(Beta)
+	"Combo Base" = false
+	#Enables the dodge mechanic(Beta)
+	"Dodge Base" = false
+	#If this is true then after 4 consecutive crits while still in the air, the attack will go into an anime-like combo(Beta)
+	"Limit to crit combo" = false
+	#Enables the (starting concept, disabled as a deafult) strong moves(Beta)
+	"Strong moves" = false
+	#Enables the blood and impact particles(Beta)
+	"Blood and impact particles" = false
+	#Enables the first air bounce
+	Bounce = true
+	#Enables use of the keybinds R, and Z which will effectively disable all mechanics associated to them and the GUI(Beta)
+	Keybinds = false
+
+[JsonList]
+	#Blacklist of item names that cannot trigger the air combo crit mechanic(Beta, uses registry item names)
+	ItemBlacklist = []
+
