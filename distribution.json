@@ -20,17 +20,6 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-        {
-          "id": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
-          "name": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
-          "type": "File",
-          "artifact": {
-            "size": 194329783,
-            "url": "https://raw.githubusercontent.com/xennnzzzz-byte/arquivos-launcher/servers/meuserver-1.20.1/files/mods/BeautyDriveHome2.0(1.16-1.20)cut.jar",
-            "MD5": "0ba4f62b6ddd237a5e4bebf2534eb188",
-            "path": "mods/BeautyDriveHome2.0(1.16-1.20)cut.jar"
-          }
-        },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -8133,6 +8122,17 @@
           }
         },
         {
+          "id": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
+          "name": "BeautyDriveHome2.0(1.16-1.20)cut.jar",
+          "type": "File",
+          "artifact": {
+            "size": 194329783,
+            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/BeautyDrive.jar",
+            "MD5": "0ba4f62b6ddd237a5e4bebf2534eb188",
+            "path": "mods/BeautyDriveHome2.0(1.16-1.20)cut.jar"
+          }
+        },
+        {
           "id": "bendy-lib-forge-4.0.0.jar",
           "name": "bendy-lib-forge-4.0.0.jar",
           "type": "File",
@@ -9560,6 +9560,17 @@
             "url": "https://raw.githubusercontent.com/xennnzzzz-byte/arquivos-launcher/servers/meuserver-1.20.1/files/mods/lrtactical-1.20.1-0.3.0.jar",
             "MD5": "73f94347bbc9050c0a28cb9aff3c3d26",
             "path": "mods/lrtactical-1.20.1-0.3.0.jar"
+          }
+        },
+        {
+          "id": "L_Enders_Cataclysm-3.16.jar",
+          "name": "L_Enders_Cataclysm-3.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 127993805,
+            "url": "https://github.com/xennnzzzz-byte/arquivos-launcher/releases/download/v1.0/Cataclysm.jar",
+            "MD5": "de747fb259b761f7b872654516fa27b3",
+            "path": "mods/L_Enders_Cataclysm-3.16.jar"
           }
         },
         {
